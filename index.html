@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width">
+    <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet">
+
+    <link href="styles/overrides.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+
+    <script src="cordova.js"></script>
+    <script src="kendo/js/jquery.min.js"></script>
+    <script src="kendo/js/kendo.mobile.min.js"></script>
+    <script src="app.js"></script>
+    <script src="bower_components/everlive/min/everlive.all.min.js"></script>
+    <script src="dataProviders/fitnessNutrition.js"></script>
+</head>
+
+<body id="kendoUiMobileApp">
+    <script src="components/test2/index.js"></script>
+    <script src="components/listView/index.js"></script>
+    <script src="components/aboutView/index.js"></script>
+    <script src="components/fitness/index.js"></script>
+    <script src="components/home/index.js"></script>
+    <div data-role="layout" data-id="main">
+        <header data-role="header">
+            <div data-role="navbar">
+                <span data-role="view-title"></span>
+            </div>
+        </header>
+        <footer data-role="footer">
+            <div data-role="tabstrip" id="navigation-container">
+                <a href="components/home/view.html" data-icon="home"><span class="navigation-link-text" data-bind="text: strings.home.title"></span></a>
+                <a href="components/fitness/view.html" data-icon="featured"><span class="navigation-link-text" data-bind="text: strings.fitness.title"></span></a>
+                <a href="components/aboutView/view.html" data-icon="favorites"><span class="navigation-link-text" data-bind="text: strings.aboutView.title"></span></a>
+                <a href="components/listView/view.html" data-icon="mostviewed"><span class="navigation-link-text" data-bind="text: strings.listView.title"></span></a>
+                <a href="components/test2/view.html" data-icon="settings"><span class="navigation-link-text" data-bind="text: strings.test2.title"></span></a>
+                <a href="components/home/view.html?logout=true" data-position="end" data-icon="action"><span class="navigation-link-text" data-bind="text: strings.home.homeModel.logoutLabel"></span></a>
+            </div>
+        </footer>
+    </div>
+
+    <div data-role="layout" data-id="main-nonav">
+        <header data-role="header">
+            <div data-role="navbar">
+                <span data-role="view-title"></span>
+            </div>
+        </header>
+        <footer data-role="footer">
+        </footer>
+    </div>
+    <div id="notify" class="notify-pop-up">
+        <span class="notify-pop-up__content"></span>
+    </div>
+    <!--  start index html save -->
+    <!--  end index html save -->
+
+    <!-- START_CUSTOM_CODE_kendoUiMobileApp -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_kendoUiMobileApp -->
+</body>
+
+</html>

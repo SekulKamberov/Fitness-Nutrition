@@ -1,0 +1,56 @@
+{
+  "_app": {
+    "navigationMore": "More",
+    "showMoreTitle": "Show More",
+    "qrCodeScan": "Scan"
+  },
+  "home": {
+    "title": "Начало",
+    "homeModel": {
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "signinLabel": "Sign In",
+      "gotoRegisterLabel": "Register",
+      "registerEmailLabel": "Email",
+      "registerPasswordLabel": "Password",
+      "registerNameLabel": "Name",
+      "registerLabel": "Register",
+      "gotoSigninLabel": "Sign In",
+      "remembermeLabel": "Remember Me",
+      "logoutLabel": "Sign Out"
+    }
+  },
+  "fitness": {
+    "title": "Фитнес",
+    "fitnessModel": {
+      "appName": "Фитнес приложение",
+      "appVersion": "Програми и диети",
+      "appDescription": "Фитнес приложение.  Програми и диети. При положение, че още сте начинаещи в тази сфера и има много неща по темата, които не са Ви напълно ясни, то със сигурност няколко прости, но много полезни съвета ще Ви бъдат от полза. Все пак никой не се е родил научен и малко повече информация едва ли ще му навреди.",
+      "contactLabel": "Фитнес",
+      "facebookLabel": "Like us on Facebook",
+      "twitterLabel": "Follow us on Twitter"
+    }
+  },
+  "aboutView": {
+    "title": "Бойни спортове",
+    "aboutViewModel": {
+      "appName": "My App",
+      "appVersion": "Version 1",
+      "appDescription": "Някакъв примерен текст. Някакъв примерен текст. Някакъв примерен текст. Някакъв примерен текст. Някакъв примерен текст. Някакъв примерен текст. Някакъв примерен текст. Някакъв примерен текст. Някакъв примерен текст. Някакъв примерен текст.",
+      "contactLabel": "Contact us",
+      "facebookLabel": "Like us on Facebook",
+      "twitterLabel": "Follow us on Twitter"
+    }
+  },
+  "listView": {
+    "title": "Съвети",
+    "listViewModel": {
+      "detailHeaderFieldValue": "Detail",
+      "addScreenHeaderValue": "Create",
+      "editScreenHeaderValue": "Edit"
+    }
+  },
+  "test2": {
+    "title": "test2"
+  }
+}

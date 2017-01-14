@@ -1,0 +1,30 @@
+
+<div data-role="view" data-title="Adaptive Grid" data-layout="main" data-stretch="true" data-init="initGrid" data-model="app.grid" data-show="app.grid.onShow" data-after-show="app.grid.afterShow">
+
+
+    <!-- START_CUSTOM_CODE_grid -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+				
+    <div id="grid"></div>
+
+
+
+<style>
+    /* Grid columns with no width are collapsed if the space is not enough, thus min-width on the tables is needed */
+    .k-grid table
+    {
+        min-width: 600px;
+    }
+
+    /* Android's default browser doesn't support properly min-width on tables */
+    @media screen and (max-width: 699px) {
+        .km-phone .km-android .k-grid table
+        {
+            width: 600px;
+        }
+    }
+</style>
+    
+
+    <!-- END_CUSTOM_CODE_grid -->
+</div>

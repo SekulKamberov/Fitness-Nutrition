@@ -1,0 +1,41 @@
+<div data-role="view" data-title="View" data-layout="main" data-model="app.fitness" data-show="app.fitness.onShow" data-after-show="app.fitness.afterShow" id="fitnessScreen" class="screen">
+    <div class="about-view screen__content screen__content--about" data-bind="invisible:error">
+        <div class="icon-group">
+
+            <div class="app-icon">
+                <img src="resources/11062816_1846129645611444_700810437669271612_o.jpg">
+            </div>
+
+
+            <div class="app-details">
+                <h2 data-bind="text: strings.fitness.fitnessModel.appName"></h2>
+                <h4 data-bind="text: strings.fitness.fitnessModel.appVersion"></h4>
+            </div>
+        </div>
+
+        <p data-bind="text: strings.fitness.fitnessModel.appDescription"></p>
+
+        <div class="button-group button-group-vertical">
+            <a data-role="button" data-rel="external" href="mailto:microfixbg@gmail.com" data-bind="buttonText: strings.fitness.fitnessModel.contactLabel"></a>
+            <a data-role="button" data-rel="external" href="#" onclick="app.openLink('https://www.facebook.com/profile.php?id=1647325847');" data-bind="buttonText: strings.fitness.fitnessModel.facebookLabel"></a>
+            <a data-role="button" data-rel="external" href="#" onclick="app.openLink('https://twitter.com/SekulKamberov');" data-bind="buttonText: strings.fitness.fitnessModel.twitterLabel"></a>
+        </div>
+        <!-- START_CUSTOM_CODE_fitnessModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+        <!-- END_CUSTOM_CODE_fitnessModel -->
+    </div>
+    <header data-role="header">
+        <div data-role="navbar" class="header-text">
+
+            <span data-bind="text: strings.fitness.title"></span>
+
+        </div>
+    </header>
+
+
+    <!-- START_CUSTOM_CODE_fitness -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_fitness -->
+</div>

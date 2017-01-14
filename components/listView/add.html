@@ -1,0 +1,11 @@
+<div data-role="view" data-title="Add" data-model="app.listView.addItemViewModel" data-bind="events: { show: onShow }" id="listViewModelAddScreen" class="screen screen--add add-item-view">
+    <header data-role="header">
+        <div data-role="navbar" class="header-text">
+            <span data-bind="text: strings.listView.listViewModel.addScreenHeaderValue"></span>
+            <a data-role="backbutton" data-align="left" data-bind="events: { click: onCancel }">Cancel</a>
+            <a data-role="button" data-align="right" data-bind="events: { click: onSaveClick }">Save</a>
+        </div>
+    </header>
+    <!-- START_CUSTOM_CODE_listViewModel -->
+    <!-- END_CUSTOM_CODE_listViewModel -->
+</div>

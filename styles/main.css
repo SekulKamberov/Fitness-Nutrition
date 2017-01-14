@@ -1,0 +1,597 @@
+#kendoUiMobileApp .image-with-text img {
+    float: left;
+    margin-right: 15px;
+}
+
+#kendoUiMobileApp .block {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+#kendoUiMobileApp .button-group,
+#kendoUiMobileApp .icon-group {
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 1em;
+}
+
+#kendoUiMobileApp .button-group {
+    table-layout: fixed;
+}
+
+#kendoUiMobileApp .button-group .km-button {
+    display: table-cell;
+    padding: .6em .8em;
+    margin: 1em 0;
+}
+
+#kendoUiMobileApp .button-group.button-group-vertical .km-button {
+    display: block;
+}
+
+#kendoUiMobileApp .group-separator {
+    border: none;
+    background: transparent;
+}
+
+#kendoUiMobileApp .group-separator-header {
+    margin: 1em 0;
+}
+
+#kendoUiMobileApp .app-icon {
+    text-align: center;
+    margin: 3em 0;
+}
+
+#kendoUiMobileApp .view-title {
+    text-align: center;
+    font-weight: normal;
+}
+
+#kendoUiMobileApp .km-drawer-button:after,
+#kendoUiMobileApp .km-drawer-button:before {
+    content: '\e077';
+}
+
+#kendoUiMobileApp .icon-group .app-icon,
+#kendoUiMobileApp .icon-group .app-details {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#kendoUiMobileApp .icon-group .app-icon {
+    margin: 0;
+    width: 5em;
+    overflow: hidden;
+    text-align: left;
+}
+
+#kendoUiMobileApp .icon-group .app-icon img {
+    display: block;
+    max-width: 5em;
+    height: auto;
+}
+
+#kendoUiMobileApp .icon-group .app-details h2,
+#kendoUiMobileApp .icon-group .app-details h4 {
+    font-weight: normal;
+    margin: 0;
+}
+
+#kendoUiMobileApp .icon-group .app-details h4 {
+    color: #828282;
+    margin-top: 0.5em;
+}
+
+#kendoUiMobileApp #navigation-container.km-tabstrip .km-button .km-text {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+#kendoUiMobileApp .unsupported-preview {
+    text-align: center;
+    margin-top: 12rem;
+}
+
+#kendoUiMobileApp .info-icon {
+    margin: 0 auto;
+    width: 3.3rem;
+    height: 3.3rem;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABIklEQVRoge3YMU4CURDG8R+KqImGxNoTWNgYqSgtvYBn8EY2nkE7LTwItbGUwhgLFSxgLTS4i4w+SOafTDc73/vydva9HZIkSZIlooNrPM6IK2wUW10DehjXRC9ScC2ymMkOROQ0JtrAv5MGvjAKyinGLgZmN/AAO5GCrchiU9rY9313R7jH2x9oJslvieqBU5z5+Zowwh0ugjTD6OBF/RWiioNI8YhzYBtbc+TvBWh+kiexwt/1CAPPuMR7QK3i9NU3cT9SMHugNGmgNGmgNCtvYD2ozjHOcYLDmtxNHOEJD0H6C9HGUPPbaBXD6bPF6Zp/8VV0FxVf+R6IMLDInGdpZkS35n99biKEo/6JWyazoKaj81eTGdE4SD9JkiRJVpMPXjloDVm2S04AAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+}
+
+#kendoUiMobileApp .editableListItem > div,
+#kendoUiMobileApp .imageListItem > div {
+    float: left;
+}
+
+#kendoUiMobileApp .km-content li p,
+#kendoUiMobileApp .km-content li h1,
+#kendoUiMobileApp .km-content li h2,
+#kendoUiMobileApp .km-content li h3,
+#kendoUiMobileApp .km-content li h4,
+#kendoUiMobileApp .km-content li h5,
+#kendoUiMobileApp .km-content li h6,
+#kendoUiMobileApp .km-content .image-with-text h3 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#kendoUiMobileApp .km-content .details-content p,
+#kendoUiMobileApp.km-nova .km-content .details-content h3 {
+    padding: 1rem;
+    margin: 0;
+}
+
+#kendoUiMobileApp .km-content li label:not(.km-label-above) > span:not(.km-widget),
+#kendoUiMobileApp .editableListItem > div,
+#kendoUiMobileApp .editableListItem:not(.km-label-above) > div,
+#kendoUiMobileApp .imageListItem:not(.km-label-above) > div {
+    word-break: break-word;
+    width: 50%;
+    padding-right: 10px;
+}
+
+#kendoUiMobileApp .km-content li label:not(.km-label-above) > span:not(.km-widget):last-child,
+#kendoUiMobileApp .editableListItem > div:last-child,
+#kendoUiMobileApp .editableListItem:not(.km-label-above) > div:last-child,
+#kendoUiMobileApp .imageListItem:not(.km-label-above) > div:last-child {
+    padding-right: 0;
+}
+
+#kendoUiMobileApp .editableListItem.km-label-above > div,
+#kendoUiMobileApp .imageListItem.km-label-above > div {
+    width: 100%;
+    float: none;
+    padding-right: 0;
+}
+
+#kendoUiMobileApp form .form-content li p {
+    margin: 0;
+    padding: 0;
+}
+
+#kendoUiMobileApp .editableListItem,
+#kendoUiMobileApp .imageListItem {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+
+#kendoUiMobileApp.km-ios7 .button-group .km-button.primary {
+    color: #fff;
+    background-color: #007aff;
+}
+
+#kendoUiMobileApp.km-android .button-group .km-button.primary {
+    color: #fff;
+    background-color: #33b5e5;
+}
+
+#kendoUiMobileApp.km-widget .km-list .km-label-above textarea,
+#kendoUiMobileApp.km-widget textarea {
+    left: 0;
+    float: none;
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+}
+
+
+/*
+Fields
+*/
+
+#kendoUiMobileApp label.field {
+    display: block;
+}
+
+
+/*Image Gallery field*/
+
+#kendoUiMobileApp .field--gallery .field__label {
+    margin-bottom: 0.5em;
+}
+
+#kendoUiMobileApp .field--gallery .field__content {
+    list-style-type: none;
+    padding: 0 0 1px 0;
+}
+
+#kendoUiMobileApp .field--gallery .field__content .km-virtual-page {
+    bottom: 0;
+    margin-right: 1px;
+}
+
+#kendoUiMobileApp .field--gallery .field__content .gallery__items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#kendoUiMobileApp .field--gallery .field__content .gallery__items img {
+    max-height: 100%;
+}
+
+#kendoUiMobileApp .field--gallery:not(.field--gallery-slider) .field__content .gallery__items {
+    position: relative;
+    margin-bottom: 1em;
+}
+
+#kendoUiMobileApp .field--gallery:not(.field--gallery-slider) .field__content .gallery__items:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    bottom: -0.5em;
+    content: "";
+}
+
+#kendoUiMobileApp .field--gallery:not(.field--gallery-slider) .field__content .gallery__items:last-child:after {
+    display: none;
+}
+
+
+/*Image field*/
+
+#kendoUiMobileApp .km-content li img,
+#kendoUiMobileApp .details-content p img {
+    width: auto;
+    max-width: 100%;
+}
+
+#kendoUiMobileApp .km-content li .image-with-text img {
+    width: 30%;
+    height: 30%;
+}
+
+#kendoUiMobileApp.km-nova .km-content li label.km-label-above img {
+    margin-top: .5em;
+}
+
+
+/*Image alignment*/
+
+#kendoUiMobileApp .align-left {
+    text-align: left;
+}
+
+#kendoUiMobileApp .align-right {
+    text-align: right;
+}
+
+#kendoUiMobileApp .align-center {
+    text-align: center;
+}
+
+
+/*Header flex box */
+
+#kendoUiMobileApp .km-header .km-navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-orient: horizontal;
+}
+
+#kendoUiMobileApp .km-header .km-rightitem,
+#kendoUiMobileApp .km-header .km-leftitem {
+    position: static;
+    -webkit-box-flex: none;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+}
+
+#kendoUiMobileApp .km-header .km-leftitem {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+}
+
+#kendoUiMobileApp .km-header .km-leftitem + .km-view-title {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+}
+
+#kendoUiMobileApp .km-header .km-rightitem {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 3;
+    -webkit-order: 3;
+    order: 3;
+}
+
+#kendoUiMobileApp .km-header .km-view-title {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: block;
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+}
+
+#kendoUiMobileApp.km-flat .km-header .km-rightitem {
+    margin-right: .5em;
+}
+
+#kendoUiMobileApp.km-flat .km-header .km-leftitem {
+    margin-left: .5em;
+}
+
+#kendoUiMobileApp.km-nova .km-header .km-rightitem .km-delete {
+    margin: 0;
+}
+
+#kendoUiMobileApp .map-details {
+    position: absolute;
+    padding: 1em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+#kendoUiMobileApp .current-marker {
+    background: #317dff;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .2);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    #kendoUiMobileApp .current-marker {
+        background-image: url('data:image/png;base64,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');
+        background-size: 25px 41px;
+    }
+}
+
+
+/*List View with relation data*/
+
+#kendoUiMobileApp .dataListField > li {
+    list-style: none;
+}
+
+#kendoUiMobileApp .dataListField li {
+    list-style-position: inside;
+}
+
+#kendoUiMobileApp .dataListField li > span {
+    margin-right: 5px;
+}
+
+#kendoUiMobileApp .dataListField,
+#kendoUiMobileApp .dataListField > li > ul,
+#kendoUiMobileApp .detail-content-item .dataListField > li > ul,
+#kendoUiMobileApp .form-content-item .dataListField > li > ul {
+    padding: 0;
+    margin-top: 0.5em;
+}
+
+#kendoUiMobileApp .masterDetailView li:not(.form-content-item) > .field {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+/*File Upload*/
+
+#kendoUiMobileApp .fileUploadListItem > div {
+    position: relative;
+}
+
+#kendoUiMobileApp .km-listview li input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    color: transparent;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#kendoUiMobileApp .field__content-info {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+::-webkit-file-upload-button {
+    cursor: pointer;
+}
+
+
+/*Start Multiple Selection Field*/
+
+#kendoUiMobileApp .multiple-select-item label {
+    margin: 0 0 0 0.2em;
+    padding: 0.4em 0 0.4em 1.7rem;
+    font-size: 1rem;
+}
+
+#kendoUiMobileApp.km-app li .editableListItem .multiple-select-item label > span,
+#kendoUiMobileApp .multiple-select-modal-window .multiple-select-item label > span {
+    width: 100%;
+    display: block;
+}
+
+#kendoUiMobileApp .multiple-select-item .editableListItem.km-label-above > div:first-child {
+    margin-bottom: 0.5em;
+}
+
+#kendoUiMobileApp .km-list .multiple-select-item input[type=checkbox],
+#kendoUiMobileApp .multiple-select-modal-window .multiple-select-item input[type=checkbox] {
+    width: 1.3rem;
+    height: 1.3rem;
+    top: 0.4em;
+    left: 3px;
+    font-size: 0.8rem;
+}
+
+#kendoUiMobileApp .multiple-select-modal-window .multiple-select-item input[type=checkbox] {
+    -webkit-appearance: none;
+    position: absolute;
+}
+
+#kendoUiMobileApp .km-button.link {
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+#kendoUiMobileApp .multiple-select-list {
+    margin-bottom: 0.5rem;
+}
+
+#kendoUiMobileApp .multiple-select-modal-window .km-content {
+    padding: 1.5rem 1rem;
+}
+
+#kendoUiMobileApp .multiple-select-modal-window .km-content .km-scroll-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    height: 100%;
+    -webkit-box-orient: vertical;
+}
+
+#kendoUiMobileApp .multiple-select-modal-window .multiple-select-item-content {
+    margin-bottom: 2rem;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-top: 0.5rem;
+}
+
+#kendoUiMobileApp .multiple-select-modal-window .multiple-select-item-buttons {
+    text-align: right;
+    -webkit-box-flex: none;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+}
+
+#kendoUiMobileApp .multiple-select-modal-window .multiple-select-item-buttons a:first-child {
+    margin-right: 1.5rem;
+}
+
+#kendoUiMobileApp .km-shim {
+    background: transparent;
+}
+
+#kendoUiMobileApp .multiple-select-modal-window.km-modalview {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+}
+
+#kendoUiMobileApp .km-modalview-root .k-animation-container {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+#kendoUiMobileApp .km-modalview-wrapper {
+    position: fixed !important;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    width: auto;
+    height: auto;
+}
+
+
+/*Flat overrides*/
+
+#kendoUiMobileApp.km-flat .multiple-select-modal-window .multiple-select-item label {
+    padding-left: 2rem;
+}
+
+#kendoUiMobileApp.km-flat .km-list .multiple-select-item input[type=checkbox],
+#kendoUiMobileApp.km-flat .multiple-select-modal-window .multiple-select-item input[type=checkbox] {
+    top: 0.9rem;
+}
+
+#kendoUiMobileApp.km-flat .multiple-select-modal-window .multiple-select-item input[type=checkbox] {
+    left: 0;
+}
+
+
+/*End Multiple Selection Field*/
+
+#kendoUiMobileApp .locationEditor {
+    z-index: 1000;
+}
+
+#kendoUiMobileApp .mapView {
+    height: 300px;
+}
+
+
+/*Custom notification*/
+
+#kendoUiMobileApp .notify-pop-up {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 65px;
+    z-index: 999;
+    text-align: center;
+    display: none;
+}
+
+#kendoUiMobileApp .notify-pop-up__content {
+    display: inline-block;
+    color: #fff;
+    padding: 20px 30px;
+    background: #606060;
+    border-radius: 30px;
+    font-size: 1.2em;
+}
+
+
+/* START_CUSTOM_CODE_kendoUiMobileApp */
+
+
+/* Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes */
+
+
+/* END_CUSTOM_CODE_kendoUiMobileApp */

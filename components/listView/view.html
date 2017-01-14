@@ -1,0 +1,34 @@
+<div data-role="view" data-title="View" data-layout="main" data-model="app.listView" data-show="app.listView.onShow" data-after-show="app.listView.afterShow" id="listViewScreen" class="screen">
+    <header data-role="header">
+        <div data-role="navbar" class="header-text">
+
+            <span data-bind="text: strings.listView.title"></span>
+
+            <a data-role="button" data-align="right" data-bind="events: { click: listViewModel.addClick }">Add</a></div>
+    </header>
+
+
+    <!-- START_CUSTOM_CODE_listView -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_listView -->
+    <!--  Certain features like grouping and inset styling are not supported when endless scroll is enabled. -->
+
+    <ul class="masterDetailView" data-role="listview" data-auto-bind="false" data-style="" data-template="listViewModelTemplate" data-bind="source: listViewModel.dataSource, events: {click: listViewModel.itemClick}" data-pull-to-refresh="true" data-endless-scroll="true">
+    </ul>
+
+
+    <!-- START_CUSTOM_CODE_listViewModel -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_listViewModel -->
+    <script type="text/x-kendo-template" id="listViewModelTemplate">
+        <div class="image-with-text">
+            # data = app.listView.listViewModel.fixHierarchicalData(data); #
+
+            <img src="#: data['ImagesUrl'] #">
+            <h3><span class="#: data.icon() #"></span>#: data['Title'] #</h3>
+            <p>#: data['Name'] #</p>
+        </div>
+    </script>
+</div>

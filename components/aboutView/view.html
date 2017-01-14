@@ -1,0 +1,41 @@
+<div data-role="view" data-title="View" data-layout="main" data-model="app.aboutView" data-show="app.aboutView.onShow" data-after-show="app.aboutView.afterShow" id="aboutViewScreen" class="screen">
+    <div class="about-view screen__content screen__content--about" data-bind="invisible:error">
+        <div class="icon-group">
+
+            <div class="app-icon">
+                <img src="resources/Chuguna_3.jpg">
+            </div>
+
+
+            <div class="app-details">
+                <h2 data-bind="text: strings.aboutView.aboutViewModel.appName"></h2>
+                <h4 data-bind="text: strings.aboutView.aboutViewModel.appVersion"></h4>
+            </div>
+        </div>
+
+        <p data-bind="text: strings.aboutView.aboutViewModel.appDescription"></p>
+
+        <div class="button-group button-group-vertical">
+            <a data-role="button" data-rel="external" href="mailto:support@example.com" data-bind="buttonText: strings.aboutView.aboutViewModel.contactLabel"></a>
+            <a data-role="button" data-rel="external" href="#" onclick="app.openLink('https://www.facebook.com/profile.php?id=1647325847');" data-bind="buttonText: strings.aboutView.aboutViewModel.facebookLabel"></a>
+            <a data-role="button" data-rel="external" href="#" onclick="app.openLink('https://twitter.com/SekulKamberov');" data-bind="buttonText: strings.aboutView.aboutViewModel.twitterLabel"></a>
+        </div>
+        <!-- START_CUSTOM_CODE_aboutViewModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+        <!-- END_CUSTOM_CODE_aboutViewModel -->
+    </div>
+    <header data-role="header">
+        <div data-role="navbar" class="header-text">
+
+            <span data-bind="text: strings.aboutView.title"></span>
+
+        </div>
+    </header>
+
+
+    <!-- START_CUSTOM_CODE_aboutView -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_aboutView -->
+</div>

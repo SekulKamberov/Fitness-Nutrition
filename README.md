@@ -1,2 +1,2 @@
-# Fitness-Nutrition
-Native Mobile App with AppBuilder by Telerik
+# Fitness-Nutrition-test-app
+My first test app
